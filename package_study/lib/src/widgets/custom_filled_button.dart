@@ -42,7 +42,7 @@ class CustomFilledButton extends StatelessWidget {
         padding: WidgetStateProperty.all(
             EdgeInsets.symmetric(horizontal: 20, vertical: 5)),
         backgroundColor:
-            buttonColor ?? WidgetStateProperty.all<Color>(MyColors.primaryBlue),
+            buttonColor ?? WidgetStateProperty.all<Color>(KColors.primaryBlue),
         shape: WidgetStateProperty.all<RoundedRectangleBorder>(
           RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(

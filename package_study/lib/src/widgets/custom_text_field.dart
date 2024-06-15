@@ -96,7 +96,7 @@ class CustomTextFormField extends StatelessWidget {
       decoration: InputDecoration(
         hintText: hintText,
         hintStyle: TextStyle(
-            color: hintColor ?? MyColors.grey,
+            color: hintColor ?? KColors.grey,
             fontSize: fontSize ?? MyTextSTyles.whiteButtonText.fontSize,
             fontWeight:
             fontWeight ?? MyTextSTyles.whiteButtonText.fontWeight)

@@ -38,7 +38,7 @@ class CustomLoginTextField extends StatelessWidget {
         CustomText(
           text: text,
           style: TextStyle(
-              color: color ?? MyColors.black,
+              color: color ?? KColors.black,
               fontSize: fontSize ?? MyTextSTyles.greyButtonText.fontSize,
               fontWeight:
               fontWeight ?? MyTextSTyles.greyButtonText.fontWeight)
@@ -56,7 +56,7 @@ class CustomLoginTextField extends StatelessWidget {
           controller: controller,
           hintText: hintText,
           hintStyle: TextStyle(
-              color: hintColor ?? MyColors.grey),
+              color: hintColor ?? KColors.grey),
         )
       ],
     );
