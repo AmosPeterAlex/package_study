@@ -14,11 +14,33 @@ class LoginDesktop extends StatelessWidget {
             color: KColors.loginBlue,
             width: 600,
           ),
-          Center(
-            child: Column(
-              children: [Text("hi")],
-            ),
-          )
+          Column(
+            children: [
+              Expanded(
+                flex: 3,
+                child: Container(),
+              ),
+              Expanded(
+                flex: 10,
+                child: Column(
+                  // mainAxisAlignment: MainAxisAlignment.start,
+                  // crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Container(
+                      child: Center(
+                          child: Text("c wijc i \n wihbciwcn\n uheweouo")),
+                    ),
+                  ],
+                ),
+              ),
+              Expanded(
+                flex: 1,
+                child: Container(
+                  child: Text("dbihcb  ihbwiwn bdiwbni"),
+                ),
+              )
+            ],
+          ),
         ],
       ),
     );
